@@ -1,0 +1,53 @@
+body.lightTheme{
+    ul.breadcrumb{
+            padding: 10px 0 20px 0;
+            list-style: none; 
+            li{
+                display: inline;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        
+            li+li:before{
+                padding: 8px;
+                color: #000;
+                content: "/\00a0";
+            }
+            li a {
+                color:#000;
+                text-decoration: underline;
+             }
+             .subb{color: #000;}   
+
+          
+    }
+}
+
+
+
+body.darkTheme{
+    ul.breadcrumb{
+            padding: 10px 0 20px 0;
+            list-style: none; 
+            li{
+                display: inline;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        
+            li+li:before{
+                padding: 8px;
+                color: #fff;
+                content: "/\00a0";
+            }
+            li a {
+                color:#fff;
+                text-decoration: underline;
+             }
+             .subb{color: #fff;}   
+
+          
+    }
+}
+  
+  

@@ -1,0 +1,87 @@
+@mixin position($position) {
+  position: $position;
+}
+
+@mixin float($float) {
+  float: $float;
+}
+
+@mixin textAlign($textAlign) {
+  text-align: $textAlign;
+}
+
+@mixin radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin boxShadow($boxShadow...) {
+  -webkit-box-shadow: $boxShadow;
+  -moz-box-shadow: $boxShadow;
+  -ms-box-shadow: $boxShadow;
+  -o-box-shadow: $boxShadow;
+  box-shadow: $boxShadow;
+}
+
+@mixin zIndex($zIndex) {
+  z-index: $zIndex;
+}
+
+@mixin margin($margin...) {
+  margin: $margin;
+}
+
+@mixin padding($padding...) {
+  padding: $padding;
+}
+
+@mixin fontWeight($fontWeight) {
+  font-weight: $fontWeight;
+}
+
+@mixin cursor($cursor) {
+  cursor: $cursor;
+}
+
+@mixin width($width) {
+  width: calc(100% - $width);
+}
+
+@mixin backgroundPos($bgImgPos...) {
+  background-position: $bgImgPos;
+}
+
+@mixin userSelect($userSelect) {
+  -webkit-user-select: $userSelect;
+  -moz-user-select: $userSelect;
+  -o-user-select: $userSelect;
+  -ms-user-select: $userSelect;
+  user-select: $userSelect;
+}
+
+@mixin outLine($outLine) {
+  -webkit-outline: $outLine;
+  -moz-outline: $outLine;
+  -o-outline: $outLine;
+  -ms-outline: $outLine;
+  outline: $outLine;
+}
+
+@mixin textShadow($textShadow...) {
+  -webkit-text-shadow: $textShadow;
+  -moz-text-shadow: $textShadow;
+  -o-text-shadow: $textShadow;
+  -ms-text-shadow: $textShadow;
+  text-shadow: $textShadow;
+}
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  transition: $transition;
+}

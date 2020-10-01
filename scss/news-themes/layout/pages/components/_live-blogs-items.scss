@@ -1,0 +1,291 @@
+body.darkTheme{
+	/* Live blog Items List */
+	.liveBlogItems{
+		margin: 0;
+		padding: 0 0 0 80px;
+		display: flex;		
+		flex-direction: column;
+		.liveBlogItem{
+			margin: 0 0 15px;
+			padding: 15px;
+			display: flex;
+			position: relative;
+			@extend .bg-grayLighter;
+			flex-direction: column;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			transition: all 1s ease;
+			&:hover{
+				webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-o-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				transition: all 1s ease;		
+				a{
+					@extend .text-orangeLight;
+					-webkit-transition: all 1s ease;
+					-moz-transition: all 1s ease;
+					-o-transition: all 1s ease;
+					transition: all 1s ease;						
+				}
+			}
+			&:before{
+				content: "";
+				margin: 0;
+				padding: 0;
+				width: 1px;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: -47px;
+				background: #a84a10;
+				z-index: 0;    
+			}
+			@media screen and (max-width:690px){
+				&:before {       
+					left: -11px;
+				}
+			}
+			&:after{
+				content: "";
+				margin: 0;
+				padding: 0;
+				width: 11px;
+				height: 11px;
+				position: absolute;
+				bottom: -1px;
+				left: -54px;
+				border: 1px solid #a84a10;
+				border-radius: 50%;
+				z-index: 0; 
+				@extend .bg-black;   
+			}
+			@media screen and (max-width:690px){
+				&:after {        
+					left: -16px;      
+				}
+			}
+			a{
+				@extend .text-black;
+				font-size: 16px;
+				font-weight: 600;
+				text-decoration: none;
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				transition: all 1s ease;
+				&:hover{
+					text-decoration: none;
+					@extend .text-orangeLight;
+				}		
+				h4{
+					margin: 0 0 7.5px;
+					padding: 0;
+					display: inline-flex;
+					width: auto;
+					line-height: 1.4;						
+				}     
+			}
+			p{
+				margin: 0;
+				padding: 0;
+				display: flex;
+				width: 100%;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.5;     
+			}
+			span{
+				margin: 0;
+				padding: 1px 0 0;
+				display: flex;
+				width: 71px;
+				position: absolute;
+				left: -82px;
+				top: 0;
+				font-size: 13px;
+				font-weight: 600;
+				align-items: center;
+				justify-content: center;
+				border-radius: 30px;
+				border: 1px solid #a84a10;
+				text-align: center;
+				@extend .bg-black;
+				@extend .text-white;
+				height: 28px;  
+			}
+			@media screen and (max-width:690px){
+				span {
+					padding: 0;
+					width: 80px;
+					left: -11px;
+					border-radius: 0;
+					border-top: 0;
+					border-left:0;
+					top: 0;        
+				}
+			}  
+		}
+		@media screen and (max-width:690px){
+			.liveBlogItem {
+				padding: 30px 15px 15px;
+			}
+		}
+	}
+	@media screen and (max-width:690px){
+		.liveBlogItems {       
+			padding: 0 0 0 15px;        
+		}
+	}
+}
+
+
+
+body.lightTheme{
+	/* Live blog Items List */
+	.liveBlogItems{
+		margin: 0;
+		padding: 0 0 0 80px;
+		display: flex;
+		flex-direction: column;
+		.liveBlogItem{
+			margin: 0 0 15px;
+			padding: 15px;
+			display: flex;
+			position: relative;
+			@extend .bg-grayLighter;
+			flex-direction: column;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			transition: all 1s ease;
+			&:hover{
+				webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-o-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				transition: all 1s ease;		
+				a{
+					@extend .text-orangeLight;
+					-webkit-transition: all 1s ease;
+					-moz-transition: all 1s ease;
+					-o-transition: all 1s ease;
+					transition: all 1s ease;						
+				}
+			}
+			&:before{
+				content: "";
+				margin: 0;
+				padding: 0;
+				width: 1px;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: -48px;
+				background: #a84a10;
+				z-index: 0;    
+			}
+			@media screen and (max-width:690px){
+				&:before {       
+					left: -11px;
+				}
+			}
+			&:after{
+				content: "";
+				margin: 0;
+				padding: 0;
+				width: 11px;
+				height: 11px;
+				position: absolute;
+				bottom: -1px;
+				left: -54px;
+				border: 1px solid #a84a10;
+				border-radius: 50%;
+				z-index: 0; 
+				@extend .bg-white;   
+			}
+			@media screen and (max-width:690px){
+				&:after {        
+					left: -16px;      
+				}
+			}
+			a{
+				@extend .text-black;
+				font-size: 16px;
+				font-weight: 600;
+				text-decoration: none;
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				transition: all 1s ease;
+				&:hover{
+					text-decoration: none;
+					@extend .text-orangeLight;
+				}		
+				h4{
+					margin: 0 0 7.5px;
+					padding: 0;
+					display: inline-flex;
+					width: auto;
+					line-height: 1.4;						
+				}     
+			}
+			p{
+				margin: 0;
+				padding: 0;
+				display: flex;
+				width: 100%;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.5;     
+			}
+			span{
+				margin: 0;
+				padding: 1px 0 0;
+				display: flex;
+				width: 71px;
+				position: absolute;
+				left: -82px;
+				top: 0;
+				font-size: 13px;
+				font-weight: 600;
+				align-items: center;
+				justify-content: center;
+				border-radius: 30px;
+				border: 1px solid #a84a10;
+				text-align: center;
+				@extend .bg-white;
+				@extend .text-black;
+				height: 28px;  
+			}
+			@media screen and (max-width:690px){
+				span {
+					padding: 0;
+					width: 80px;
+					left: -11px;
+					border-radius: 0;
+					border-top: 0;
+					border-left:0;
+					top: 0;        
+				}
+			}  
+		}
+		@media screen and (max-width:690px){
+			.liveBlogItem {
+				padding: 30px 15px 15px;
+			}
+		}
+	}
+	@media screen and (max-width:690px){
+		.liveBlogItems {       
+			padding: 0 0 0 15px;        
+		}
+	}
+}

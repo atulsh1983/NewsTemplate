@@ -1,0 +1,28 @@
+body.darkTheme{
+	.ad-slot{
+		@include margin(0 0 15px);
+		@include padding(15px);
+		@extend .bg-white;
+		display:flex;
+		width:100%;
+		img{
+			width:100%;
+			display:block;
+		}
+	}
+}
+
+
+body.lightTheme{
+	.ad-slot{
+		@include margin(0 0 15px);
+		@include padding(15px);
+		@extend .bg-white;
+		display:flex;
+		width:100%;
+		img{
+			width:100%;
+			display:block;
+		}
+	}
+}

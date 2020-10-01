@@ -1,0 +1,151 @@
+/* import components and pages */
+@import "./components/brdcrumb";
+@import "./components/tranding-topics";
+@import "./components/ad-slot";
+@import "./components/breacking-news";
+@import "./components/list-items";
+@import "./components/live-blogs-items";
+@import "./components/photos";
+@import "./components/corwidget";
+@import "./home/home";
+@import "./components/articlecss";
+
+body.lightTheme{
+    .page-wrapper{    
+        display:flex;
+        width:100%;
+        .page-row, .photo-row{         
+            display:flex;
+            flex-direction: row;
+            width:100%;
+            height:100%;
+            .cell{
+                @include padding(0);
+                display:flex;          
+            }
+            .cell.cell-width-72{
+                flex:1 1 72%;
+            }
+            .cell.cell-width-28{
+                flex:1 1 28%;
+            }
+            .cell.cell-width-100{
+                flex:1 1 100%;
+            }
+            .margin-right{
+                margin-right: 30px;
+            }
+            @media screen and (max-width:991px){
+                .margin-right{
+                    margin-right: 0;
+                }
+            }
+        }
+        @media screen and (max-width:991px){
+            .page-row{
+                flex-direction: column;
+            }
+        }
+    }
+    .direction-column{
+        flex-direction: column;
+    }
+    .grayLighter{
+        @extend .bg-grayLighter;
+    }
+    .grayLight{
+        @extend .bg-grayLight;
+    }
+    .white{
+        @extend .bg-white;
+    }
+    .whiteLight{
+        @extend .bg-whiteLight;
+    }
+    .topBottomPadding{
+        padding-top:15px;
+        padding-bottom:30px
+    }
+    @media screen and (max-width:991px){
+        .topBottomPadding{
+            padding-top:30px;
+            padding-bottom:30px
+        }
+    }
+}
+
+body.darkTheme{
+    .page-wrapper{    
+        display:flex;
+        width:100%;
+        .page-row, .photo-row{         
+            display:flex;
+            flex-direction: row;
+            width:100%;
+            height:100%;
+            .cell{
+                @include padding(0);
+                display:flex;          
+            }
+            .cell.cell-width-72{
+                flex:1 1 72%;
+            }
+            .cell.cell-width-28{
+                flex:1 1 28%;
+            }
+            .cell.cell-width-100{
+                flex:1 1 100%;
+            }
+            .margin-right{
+                margin-right: 30px;
+            }
+            @media screen and (max-width:991px){
+                .margin-right{
+                    margin-right: 0;
+                }
+            }
+        }
+        @media screen and (max-width:991px){
+            .page-row{
+                flex-direction: column;
+            }
+        }
+    }
+    .direction-column{
+        flex-direction: column;
+    }
+    .grayLighter{
+        @extend .bg-grayLighter;
+    }
+    .grayLight{
+        @extend .bg-grayLight;
+    }
+    .white{
+        @extend .bg-white;
+    }
+    .whiteLight{
+        @extend .bg-whiteLight;
+    }
+    .topBottomPadding{
+        padding-top:15px;
+        padding-bottom:30px
+    }
+    @media screen and (max-width:991px){
+        .topBottomPadding{
+            padding-top:30px;
+            padding-bottom:30px
+        }
+    }
+}
+
+.topBottomPadding_1 {
+    padding-top: 15px;
+    }
+.marbtm30{
+    margin-bottom: 30px;
+} 
+.imgres{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}

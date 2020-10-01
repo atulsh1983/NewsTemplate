@@ -1,0 +1,121 @@
+body.darkTheme{
+	
+	h1,.above-entry-meta,p.wp-caption-text,.news-story p,.web_title{
+		color: #fff;
+	}
+	.news-story-snip 
+	{
+    	
+    	border-top: 1px solid #d0d0d0;
+    	border-bottom: 1px solid #d0d0d0;
+    	color: #fff;
+    	
+	}
+	.above-entry-meta span {
+		color: rgba(255,255,255,.5);
+	}
+
+}	
+body.lightTheme{
+	
+	h1,.news-story p, .web_title{
+		color: #444;
+	}
+	.news-story-snip 
+	{
+    	
+    	border-top: 1px solid #d0d0d0;
+    	border-bottom: 1px solid #d0d0d0;
+    	
+	}
+	.above-entry-meta span, p.wp-caption-text, {
+		color: rgba(0,0,0,.5);
+	}
+	
+}	
+
+.commonArtilce{	
+
+	padding-top: 30px;
+	.news-story{
+		p {
+			line-height: 28px;
+			padding: 0;
+			margin: 10px 0;
+			font-weight: 400;
+			border: 0;
+		}
+		h2{
+			font-weight: bold;
+		}
+		ul,ol{
+			list-style-type: disc;
+			padding-left: 17px;
+			line-height: 30px;
+		}
+
+	} 
+	h1{
+		margin: 0;
+    	padding: 0;
+    	display: flex;
+    	width: 100%;
+    	font-size: 28px;
+    	font-weight: 400;
+    	line-height: 34px;
+	}
+	.news-story-snip{
+		line-height: 20px;
+    	padding: 15px 0;
+    	margin: 10px 0;
+    	font-weight: 400;
+	}
+	.above-entry-meta{
+    	margin: 0;
+    	padding: 7.5px 0;
+    	width: 100%;
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+	.above-entry-meta span {
+	    display: flex;
+	    margin-right: 10px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    line-height: 14px;
+	    white-space: nowrap;
+	    font-style: italic;	    
+	    margin-bottom: 0;
+	}
+	.above-entry-meta span i {
+    font-weight: 800;
+    margin-right: 5.5px;
+	}
+	.above-entry-social{
+    margin: 0;
+    padding: 7.5px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	p.wp-caption-text {
+    padding: 5px 0;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+	}
+	.web_title{
+    line-height: 28px;
+    padding: 0;
+    margin: 10px 0;
+    font-weight: 400;
+    border: 0;
+	}
+	img{
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+	
+}

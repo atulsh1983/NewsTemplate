@@ -1,0 +1,37 @@
+.userSelect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.appearance {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.textTransform {
+  text-transform: uppercase;
+}
+
+.posRelative {
+  @include position(relative);
+}
+
+.ellipsis-text {
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.lineGradient { 
+  background: #352d45;
+  background: linear-gradient(
+    90deg,
+    #352d45 60%,
+    #5b526d 100%
+  );
+}

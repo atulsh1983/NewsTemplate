@@ -1,0 +1,114 @@
+body.darkTheme{
+	.page-wrapper{
+		.breakingNews{
+			@include margin(0 0 30px);
+			@include padding(0);
+			display:flex;
+			flex-direction: row;
+			@extend .bg-white;
+			.title{
+				@include margin(0);
+				@include padding(0 5.5px 0 7.5px);
+				height:42px;
+				align-items: center;
+				display: flex;
+				@extend .font-size-18px;
+				@extend .text-white;
+				@extend .bg-orangeDark;
+				font-weight: 600;
+				width: 144px;
+				position: relative;
+				&:after{
+					content:"";
+					position: absolute;
+					top: -1px;
+					right: -16px;		
+					border-right: 16px solid transparent;
+					border-bottom: 43px solid #f4640b;
+				}		
+			}
+			.itemList{
+				align-items: center;
+				width: 100%;
+				border: 1px solid #e3e3e3;
+				border-left: 0;
+				margin: 0;
+				padding: 0 15px;
+				display: block;
+				list-style: none;
+				height: 40px;
+				overflow: hidden;
+				flex: 1;
+				line-height: 40px;		
+				a{	
+					@include margin(0 7.5px);
+					@extend .text-black;
+					text-decoration: none;
+					@extend .font-size-14px;
+					position: relative;					
+					&:last-child{
+						margin-right:0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+body.lightTheme{
+	.page-wrapper{
+		.breakingNews{
+			@include margin(0 0 30px);
+			@include padding(0);
+			display:flex;
+			flex-direction: row;
+			@extend .bg-white;
+			.title{
+				@include margin(0);
+				@include padding(0 5.5px 0 7.5px);
+				height:42px;
+				align-items: center;
+				display: flex;
+				@extend .font-size-18px;
+				@extend .text-white;
+				@extend .bg-orangeDark;
+				font-weight: 600;
+				width: 144px;
+				position: relative;
+				&:after{
+					content:"";
+					position: absolute;
+					top: -1px;
+					right: -16px;		
+					border-right: 16px solid transparent;
+					border-bottom: 43px solid #f4640b;
+				}		
+			}			
+			.itemList{
+				align-items: center;
+				width: 100%;
+				border: 1px solid #e3e3e3;
+				border-left: 0;
+				margin: 0;
+				padding: 0 15px;
+				display: block;
+				list-style: none;
+				height: 40px;
+				overflow: hidden;
+				flex: 1;
+				line-height: 40px;
+				a{	
+					@include margin(0 7.5px);
+					@extend .text-black;
+					text-decoration: none;
+					@extend .font-size-14px;
+					position: relative;					
+					&:last-child{
+						margin-right:0;
+					}
+				}
+			}
+		}
+	}
+}
