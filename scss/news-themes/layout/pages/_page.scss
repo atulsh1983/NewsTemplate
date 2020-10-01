@@ -1,7 +1,6 @@
 /* import components and pages */
 @import "./components/brdcrumb";
 @import "./components/tranding-topics";
-@import "./components/ad-slot";
 @import "./components/breacking-news";
 @import "./components/list-items";
 @import "./components/live-blogs-items";
@@ -9,6 +8,7 @@
 @import "./components/corwidget";
 @import "./home/home";
 @import "./components/articlecss";
+@import "./components/_iplcss";
 
 body.lightTheme{
     .page-wrapper{    

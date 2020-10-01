@@ -18,59 +18,16 @@ body {
 }
 
 body.darkTheme{
-  background:#1a1a1a;
-  /* Container */
-  .container-fluid{
-    width:100%;
-    display:flex; 
-  }
-
-  .container{	
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin:0 auto;
-    display: flex;
-  }
-  @media screen and (max-width:1199px){
-    .container{	
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-    } 
-  }
-  .flexDirection{
-    flex-direction: column;
-  }
+  background:#1a1a1a; 
 }
 body.lightTheme{
   background:#fff;
-  /* Container */
-  .container-fluid{
-    width:100%;
-    display:flex; 
-  }
-
-  .container{	
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin:0 auto;
-    display: flex;
-  }
-  @media screen and (max-width:1199px){
-    .container{	
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-    } 
-  }
-  .flexDirection{
-    flex-direction: column;
-  }
+ 
 }
 /* global extended classes */
-
+.hiddenx{
+  overflow-x: hidden;
+}
 .noPadding {
   padding-left: 0;
   padding-right: 0;
@@ -188,5 +145,129 @@ body::-webkit-scrollbar-thumb {
   @extend .bg-grayLight;
   outline: 1px solid #065381;
 }
+
+/* social icon */
+.social {
+  display: flex;
+  flex-direction: row;
+  margin:10px 0
+}
+
+
+.setsocial{
+  width:30px;
+  height:30px; 
+  margin:0 6px 0 0;
+  background-image: url("https://www.suprabhatbharat.com/wp-content/uploads/2020/09/icons.png");
+  background-repeat: no-repeat;
+  
+}
+.setsocial:hover{
+  filter: grayscale(0%);
+}
+.fb{background-position: -82px -6px;}
+.tw{background-position: -43px -6px}
+.pin{background-position: -154px -6px}
+.smail{background-position: -117px -6px}
+.whatapp{background-position: -6px -5px}
+
+@media screen and (min-width:768px){
+  .setsocial{
+    filter: grayscale(100%);
+  }
+}
+
+/* container */
+
+.container-fluid{
+  width:100%;
+  display:flex; 
+}
+
+.container{	
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:0 auto;
+  display: flex;
+}
+@media screen and (max-width:1199px){
+  .container{	
+    width: calc(100% - 30px);
+      padding-right: 15px;
+      padding-left: 15px;
+  } 
+}
+
+.flexDirection{
+  flex-direction: column;
+} 
+.dispt{display: table;}
+.dispc{display: table-cell;}
+.posrel{position: relative;}
+.posabs{position: absolute;}
+.txtc{text-align: center;}
+
+.blinking {
+  -webkit-animation: 1s blink ease infinite;
+  -moz-animation: 1s blink ease infinite;
+  -ms-animation: 1s blink ease infinite;
+  -o-animation: 1s blink ease infinite;
+  animation: 1s blink ease infinite;
+  
+}
+
+@keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
 
 

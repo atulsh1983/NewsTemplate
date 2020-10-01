@@ -1,0 +1,190 @@
+.iplwidget{
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    .bghead{       
+        width: 100%;   
+        background-color: #f4640b;   
+      }
+     
+     h3{
+        line-height: 40px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px; 
+      font-weight: bold;
+     } 
+     
+      .bghead a{text-decoration: none;}
+      .pad10{padding: 10px;}
+      .bgm{background-color: #fff;}
+      .mauto{margin:auto}    
+
+
+      .dispt{display: table;}
+      .dispc{display: table-cell; vertical-align: middle; color:#000}
+      .settxt2{line-height: 30px; font-size: 12px; font-weight: bold; text-align: center;color:#000}
+      .settxt1{padding-left: 5px; text-transform: uppercase; color:#000}
+      .settxt3{padding-left: 5px;font-size: 14px; color:#000}
+      .pada{padding-top: 10px;}
+      .padb{padding-top: 6px;}
+      .setcell1{width: 50%; text-align: center;}
+      .setdec{text-decoration: none; color: #000;}
+      
+     
+      
+        .mainbg{
+           background-image: url("https://www.suprabhatbharat.com/wp-content/uploads/2020/09/smallicon.png");
+            background-repeat: no-repeat;
+        }
+        .mi{width: 31px;
+          height: 26px;
+          background-position: -12px -11px;}
+        
+        .csk{     width: 30px;
+          height: 31px;
+          background-position: -10px -38px;
+      }
+
+          .dc {width: 30px;
+            height: 36px;
+            background-position: -11px -75px;}
+
+         .kxip{width: 30px;
+          height: 33px;
+          background-position: -11px -118px;}
+
+          .kkr{
+            width: 32px;
+            height: 49px;
+            background-position: -63px -8px;
+          }
+
+          .rr{
+            width: 32px;
+            height: 33px;
+            background-position: -63px -65px;
+          }
+
+          .srh{
+            width: 32px;
+            height: 30px;
+            background-position: -66px -126px;
+          }
+
+          .rcb{
+            width: 32px;
+            height: 42px;
+            background-position: -12px -165px;
+          }
+
+
+
+
+        .button.gray {
+          background-color: #f46426;
+        }
+        .button {
+          position: relative;
+          display: inline-block;
+          padding: 10px 0;
+          cursor: pointer;
+          color: #FFF;
+          letter-spacing: 1px;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+          background: #f46426 none repeat scroll 0% 0%;
+          box-shadow:
+            0 1px 0 rgba(255, 255, 255, 0.25),
+            0 1px 0 rgba(255, 255, 255, 0.25) inset,
+            0 0 0 rgba(0, 0, 0, 0.5) inset,
+            0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+            0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+            0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;        
+          transition: all 0.2s linear 0s;        
+          text-align: center;
+          text-decoration: none;
+          width: 100%;
+          
+        }
+        .button:hover,
+        .button:focus {
+          text-decoration: none;
+          box-shadow:
+            0 2px 5px rgba(0, 0, 0, 0.5),
+            0 1px 0 rgba(255, 255, 255, 0.25) inset,
+            0 0 0 rgba(0, 0, 0, 0.25) inset,
+            0 20px 0 rgba(255, 255, 255, 0.03) inset,
+            0 -20px 20px rgba(0, 0, 0, 0.15) inset,
+            0 20px 20px rgba(255, 255, 255, 0.05) inset;
+        }
+
+      
+      .widcom ul li{display: flex; flex-direction: column; border-bottom: 1px dotted #a5b1bd ;}  
+      .widcom ul li > div {padding: 10px;}
+
+
+}
+
+.bg-orange {
+  color: #582700;
+  background: #f5ce67;
+  background: -webkit-linear-gradient(top,#f5ce67 0%,#f8cd67 4%,#f6cc66 7%,#f7cb6c 13%,#f5c66c 21%,#f8c76b 23%,#f7c570 27%,#f7c36f 33%,#f9c174 39%,#f8bf72 40%,#f9ba73 47%,#f9ba77 52%,#fdb877 56%,#fab677 57%,#f9b479 60%,#fab17c 67%,#fcb17a 69%,#fbaf7e 74%,#fcab7c 77%,#fcab7e 84%,#fdaa82 85%,#fca683 100%);
+  background: linear-gradient(to bottom,#f5ce67 0%,#f8cd67 4%,#f6cc66 7%,#f7cb6c 13%,#f5c66c 21%,#f8c76b 23%,#f7c570 27%,#f7c36f 33%,#f9c174 39%,#f8bf72 40%,#f9ba73 47%,#f9ba77 52%,#fdb877 56%,#fab677 57%,#f9b479 60%,#fab17c 67%,#fcb17a 69%,#fbaf7e 74%,#fcab7c 77%,#fcab7e 84%,#fdaa82 85%,#fca683 100%);
+}
+.setTitle{
+  padding: 10px 0 10px 10px;
+  display: block;
+  text-decoration: none;
+  color: #000; 
+}
+
+.iplLb{
+  background-color: #e5e0dc;
+  margin-bottom: 20px; 
+  .cirt{   
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+height: 50px;width:50px;border-radius: 50%;color:#fff;position: relative;
+font-weight: bold;
+margin: 10px auto;
+
+  } 
+  .setc1{
+    display: flex;
+    flex-direction: row;    
+    padding:20px 0
+  }
+  .setc2{
+    text-align: center;
+    padding-bottom: 10px;
+    p{color:#000}
+  }
+  .set3{vertical-align: middle;
+    text-align: center;
+    color: #000;}
+  .setc4{
+    margin: 0 auto;
+    width: 52px;
+    padding: 10px 0;
+    color: #000;
+  }
+  .pad15{
+    padding-left: 15px;
+  }
+  .l0{
+    left: 0;
+  }
+  
+  
+ 
+  .ful{width: 100%;}
+  .w50p{width: 40%;}
+  .setshare{top:50%;transform:translate(-50%,-50%);left:50%;position: absolute;}
+}
+

@@ -15,6 +15,13 @@ body.darkTheme{
 		color: rgba(255,255,255,.5);
 	}
 
+	.commonArtilce .news-story ul, .commonArtilce .news-story ol, .commonArtilce .news-story h2{
+		color:#fff
+	}
+
+}
+body.darkTheme > * {
+	color:#fff
 }	
 body.lightTheme{
 	
@@ -53,6 +60,7 @@ body.lightTheme{
 			padding-left: 17px;
 			line-height: 30px;
 		}
+		
 
 	} 
 	h1{
@@ -118,4 +126,38 @@ body.lightTheme{
 		height: auto;
 	}
 	
+	
+	
+}
+
+.pointtable {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 1em;
+	border: none;
+	thead th {
+		background-color: #d9edf7;
+		font-weight: 700;
+		vertical-align: middle;
+	}
+	.even td {
+		background-color: #fff;
+	}
+	.odd td {
+		background-color: #f9f9f9;
+	}
+	td, th {
+		padding: 8px;
+		border: none;
+		background: 0 0;
+		text-align: left;
+		color:#000
+	}
+	td{
+		border-top: 1px solid #ddd;
+		vertical-align: middle;
+		line-height: 30px;
+		color:#000
+	}
 }
